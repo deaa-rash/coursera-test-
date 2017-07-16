@@ -1,0 +1,78 @@
+/********** Base styles **********/
+*{
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+h2{
+	border: 1px solid black;
+    margin : 0px;
+}
+p {
+	background-color: grey;
+	margin-top :30px;
+	margin-right:7px;
+	margin-left:7px;
+	margin-bottom:7px;
+}
+
+.pfirst {
+	background-color: grey;
+	border : 2px solid black;
+    margin : 10px;
+    width :300px;
+    float :left;
+}
+#he1{
+    background-color : #3a90cc;
+    float :right;
+    width:75px;
+}
+#he2{
+	background-color : #a426e5;
+	float : right;
+	width:75px;
+}
+#he3{
+    background-color : #eeb324;
+	float : right;
+	width:75px; 
+}
+#s1{
+	margin-left:50px;
+}
+#s3{
+	margin-right:50px;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px){
+	#s1{
+		margin-left: 50px;
+	}
+	#s3{
+		margin-right:50px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #s3{
+  	     margin-left:50px;
+	     width :614px;
+	     clear :left;
+	 }
+  #he3{
+ 	     width: 152px;
+     }
+   #s2{
+             margin-right:50px;  	
+   }
+}
+
+@media (max-width: 767px) {
+	.pfirst{
+		float:left;
+		margin-left:50px;
+		clear:left;
+	}
+}
