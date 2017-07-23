@@ -1,0 +1,39 @@
+.navbar-header {
+	height:50px;
+}
+
+h1 {
+	font-style: bold;
+	float: left;
+	margin-top: 0px !important;
+	margin-left:0px !important;
+	color: maroon !important;
+	font-size: 25px !important;
+}
+
+#paraghrf {
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: auto;
+	width: 80%;
+	padding: 10px;
+	text-align: center;
+	font-family: italic;
+	box-shadow: 40px black;
+}
+
+h2 {
+	margin-top:50px;
+	font-style: bold;
+}
+
+h3 {
+	font-family:  bold;
+}
+
+#nav-list li {
+	text-align: center;
+	font-size: 120%;
+}
